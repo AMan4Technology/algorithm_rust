@@ -108,5 +108,6 @@ pub mod water_and_jug_problem;
 pub mod word_ladder_2;
 pub mod x_of_a_kind_in_a_deck_of_cards;
 pub mod zig_zag_conversion;
+pub mod closed_island;
 
 pub struct Solution {}
