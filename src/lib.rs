@@ -5,6 +5,7 @@ pub mod available_captures_for_rook;
 pub mod best_sightseeing_pair;
 pub mod best_time_to_buy_and_sell_stock;
 pub mod binary_tree_maximum_path_sum;
+pub mod closed_island;
 pub mod coin_change;
 pub mod coin_lcci;
 pub mod compress_string_lcci;
@@ -52,6 +53,7 @@ pub mod longest_valid_parentheses;
 pub mod majority_element;
 pub mod matrix;
 pub mod max_area_of_island;
+pub mod max_sum_div_three;
 pub mod maximum_nesting_depth_of_two_valid_parentheses_strings;
 pub mod merge_intervals;
 pub mod merge_sorted_array;
@@ -108,6 +110,5 @@ pub mod water_and_jug_problem;
 pub mod word_ladder_2;
 pub mod x_of_a_kind_in_a_deck_of_cards;
 pub mod zig_zag_conversion;
-pub mod closed_island;
 
 pub struct Solution {}
