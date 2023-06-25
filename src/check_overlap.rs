@@ -13,11 +13,8 @@ impl Solution {
         let (is_left, is_right) = (x_center < x1, x_center > x2);
         let (is_up, is_down) = (y_center > y2, y_center < y1);
 
-        if !(is_left || is_right || is_up || is_down) {
-            return true;
-        }
-
         match (is_left, is_up, is_right, is_down) {
+            (false, false, false, false) => true,
             (true, false, false, false) => x1 - x_center <= radius,
             (true, true, false, false) => {
                 (x1 - x_center).pow(2) + (y_center - y2).pow(2) <= radius.pow(2)
