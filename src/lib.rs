@@ -5,6 +5,7 @@ pub mod available_captures_for_rook;
 pub mod best_sightseeing_pair;
 pub mod best_time_to_buy_and_sell_stock;
 pub mod binary_tree_maximum_path_sum;
+pub mod check_overlap;
 pub mod closed_island;
 pub mod coin_change;
 pub mod coin_lcci;
